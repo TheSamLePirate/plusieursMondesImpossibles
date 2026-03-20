@@ -1,0 +1,130 @@
+DIGEST 54518c00e88d60ec9c64355ce1e0c66f
+FPlusieursMondesImpossibles
+sec 335:341 <> Unicite
+var  384:394 Unicite Proposition
+var  414:416 Unicite Not
+R431:434 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R420:430 PlusieursMondesImpossibles <> Unicite.Proposition var
+R435:445 PlusieursMondesImpossibles <> Unicite.Proposition var
+var  458:459 Unicite Or
+R474:477 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R463:473 PlusieursMondesImpossibles <> Unicite.Proposition var
+R489:492 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R478:488 PlusieursMondesImpossibles <> Unicite.Proposition var
+R493:503 PlusieursMondesImpossibles <> Unicite.Proposition var
+def 801:805 <> World
+R821:824 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R810:820 PlusieursMondesImpossibles <> Unicite.Proposition var
+var 933:952 Unicite world_extensionality
+R972:976 PlusieursMondesImpossibles <> World def
+binder 964:965 <> w1:4
+binder 967:968 <> w2:5
+R982:982 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1020:1024 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R994:1004 PlusieursMondesImpossibles <> Unicite.Proposition var
+binder 990:990 <> P:6
+R1011:1015 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1007:1008 PlusieursMondesImpossibles <> w1:4 var
+R1010:1010 PlusieursMondesImpossibles <> P:6 var
+R1016:1017 PlusieursMondesImpossibles <> w2:5 var
+R1019:1019 PlusieursMondesImpossibles <> P:6 var
+R1027:1029 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1025:1026 PlusieursMondesImpossibles <> w1:4 var
+R1030:1031 PlusieursMondesImpossibles <> w2:5 var
+def 1118:1132 <> obeys_explosion
+R1139:1143 PlusieursMondesImpossibles <> World def
+binder 1135:1135 <> w:9
+R1171:1181 PlusieursMondesImpossibles <> Unicite.Proposition var
+binder 1165:1165 <> P:10
+binder 1167:1167 <> Q:11
+R1187:1190 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1184:1184 PlusieursMondesImpossibles <> w:9 var
+R1186:1186 PlusieursMondesImpossibles <> P:10 var
+R1200:1203 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1191:1191 PlusieursMondesImpossibles <> w:9 var
+R1194:1196 PlusieursMondesImpossibles <> Unicite.Not var
+R1198:1198 PlusieursMondesImpossibles <> P:10 var
+R1204:1204 PlusieursMondesImpossibles <> w:9 var
+R1206:1206 PlusieursMondesImpossibles <> Q:11 var
+rec 1477:1495 <> RaisonnementLogique
+proj 1516:1523 <> or_intro
+proj 1574:1575 <> ds
+R1502:1506 PlusieursMondesImpossibles <> World def
+binder 1498:1498 <> w:12
+R1540:1550 PlusieursMondesImpossibles <> Unicite.Proposition var
+binder 1534:1534 <> P:14
+binder 1536:1536 <> Q:15
+R1556:1559 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1553:1553 PlusieursMondesImpossibles <> w:12 var
+R1555:1555 PlusieursMondesImpossibles <> P:14 var
+R1560:1560 PlusieursMondesImpossibles <> w:12 var
+R1563:1564 PlusieursMondesImpossibles <> Unicite.Or var
+R1566:1566 PlusieursMondesImpossibles <> P:14 var
+R1568:1568 PlusieursMondesImpossibles <> Q:15 var
+R1592:1602 PlusieursMondesImpossibles <> Unicite.Proposition var
+binder 1586:1586 <> P:17
+binder 1588:1588 <> Q:18
+R1615:1618 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1605:1605 PlusieursMondesImpossibles <> w:12 var
+R1608:1609 PlusieursMondesImpossibles <> Unicite.Or var
+R1611:1611 PlusieursMondesImpossibles <> P:17 var
+R1613:1613 PlusieursMondesImpossibles <> Q:18 var
+R1628:1631 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1619:1619 PlusieursMondesImpossibles <> w:12 var
+R1622:1624 PlusieursMondesImpossibles <> Unicite.Not var
+R1626:1626 PlusieursMondesImpossibles <> P:17 var
+R1632:1632 PlusieursMondesImpossibles <> w:12 var
+R1634:1634 PlusieursMondesImpossibles <> Q:18 var
+prf 1710:1727 <> la_preuve_de_lewis
+R1743:1747 PlusieursMondesImpossibles <> World def
+binder 1739:1739 <> w:20
+R1752:1770 PlusieursMondesImpossibles <> RaisonnementLogique class
+R1772:1772 PlusieursMondesImpossibles <> w:20 var
+binder 1752:1772 <> H:21
+R1779:1793 PlusieursMondesImpossibles <> obeys_explosion def
+R1795:1795 PlusieursMondesImpossibles <> w:20 var
+R1852:1853 PlusieursMondesImpossibles <> Unicite.Or var
+R1852:1853 PlusieursMondesImpossibles <> Unicite.Or var
+R1872:1879 PlusieursMondesImpossibles <> or_intro meth
+R1872:1879 PlusieursMondesImpossibles <> or_intro meth
+R1902:1903 PlusieursMondesImpossibles <> ds meth
+R1902:1903 PlusieursMondesImpossibles <> ds meth
+def 2297:2309 <> is_impossible
+R2316:2320 PlusieursMondesImpossibles <> World def
+binder 2312:2312 <> w:22
+R2335:2341 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2357:2358 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2346:2356 PlusieursMondesImpossibles <> Unicite.Proposition var
+binder 2342:2342 <> P:23
+R2362:2365 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2359:2359 PlusieursMondesImpossibles <> w:22 var
+R2361:2361 PlusieursMondesImpossibles <> P:23 var
+R2366:2366 PlusieursMondesImpossibles <> w:22 var
+R2369:2371 PlusieursMondesImpossibles <> Unicite.Not var
+R2373:2373 PlusieursMondesImpossibles <> P:23 var
+prf 2473:2495 <> unique_impossible_world
+R2515:2519 PlusieursMondesImpossibles <> World def
+binder 2507:2508 <> w1:24
+binder 2510:2511 <> w2:25
+R2527:2545 PlusieursMondesImpossibles <> RaisonnementLogique class
+R2547:2548 PlusieursMondesImpossibles <> w1:24 var
+binder 2527:2548 <> H:26
+R2553:2571 PlusieursMondesImpossibles <> RaisonnementLogique class
+R2573:2574 PlusieursMondesImpossibles <> w2:25 var
+binder 2553:2574 <> H0:27
+R2596:2599 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2580:2592 PlusieursMondesImpossibles <> is_impossible def
+R2594:2595 PlusieursMondesImpossibles <> w1:24 var
+R2616:2619 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2600:2612 PlusieursMondesImpossibles <> is_impossible def
+R2614:2615 PlusieursMondesImpossibles <> w2:25 var
+R2622:2624 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2620:2621 PlusieursMondesImpossibles <> w1:24 var
+R2625:2626 PlusieursMondesImpossibles <> w2:25 var
+R2676:2695 PlusieursMondesImpossibles <> world_extensionality prfax
+R2676:2695 PlusieursMondesImpossibles <> world_extensionality prfax
+R2820:2837 PlusieursMondesImpossibles <> la_preuve_de_lewis thm
+R2820:2837 PlusieursMondesImpossibles <> la_preuve_de_lewis thm
+R2952:2969 PlusieursMondesImpossibles <> la_preuve_de_lewis thm
+R2952:2969 PlusieursMondesImpossibles <> la_preuve_de_lewis thm
+R3002:3008 PlusieursMondesImpossibles Unicite <> sec
